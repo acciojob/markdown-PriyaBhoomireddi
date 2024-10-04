@@ -1,12 +1,27 @@
-h1 {
-    color: #27aedb;
-    text-align: center;
-    }
-    
-
-button{
-    color: #27aedb;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-}
+/* src/App.css */
+.app {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .textarea {
+    width: 48%;
+    height: 400px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .preview {
+    width: 48%;
+    height: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    overflow-y: auto;
+  }
+  
+  .loading {
+    font-size: 20px;
+    color: gray;
+  }
+  
