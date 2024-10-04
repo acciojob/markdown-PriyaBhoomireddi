@@ -1,7 +1,7 @@
 // src/App.jsx
 import React from 'react'; // Import React
 import MarkdownApp from './MarkdownApp';
-import "./styles/App.css";
+import "../styles/App.css";
 const App = () => {
   return (
     <div>
